@@ -42,9 +42,11 @@ sudo apt install mysql-client
 
 Before running the script, you can configure the following variables according to your requirements:
 
-- `PASSWORD`: The root password for the MySQL instance.
-- `CONTAINER_NAME`: The name to assign to the Docker container.
-- `DB_NAME`: The name of the MySQL database to create.
+- `PASSWORD=secret`
+- `CONTAINER_NAME=mysql_container`
+- `DB_NAME=mydb`
+- `DOCKER_PORT=3306`
+- `HOST_PORT=53306`
 
 
 ## Usage
