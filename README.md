@@ -31,16 +31,16 @@ echo \
 sudo apt-get update
 ```
 2. Install the Docker packages.
-```
+```bash
  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 - MySQL client installed for database connections.
-```
+```bash
 sudo apt install mysql-client
 ```
 ## Script Configuration
 
-Before running the script, configure the following variables according to your requirements:
+Before running the script, you can configure the following variables according to your requirements:
 
 - `PASSWORD`: The root password for the MySQL instance.
 - `CONTAINER_NAME`: The name to assign to the Docker container.
@@ -50,7 +50,7 @@ Before running the script, configure the following variables according to your r
 ## Usage
 
 1. **Save the Script**:
-   - Save the provided script to a file, e.g., `mysql-docker-script.sh`.
+   - Save the provided script to a file, e.g., `script.sh`.
 
 2. **Make the Script Executable**:
    ```bash
