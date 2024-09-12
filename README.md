@@ -57,3 +57,7 @@ Before running the script, you can configure the following variables according t
 2. **Make the Script Executable**:
    ```bash
    chmod +x script.sh
+3. **Run the script**
+   ```
+   sudo ./script.sh
+   ```
