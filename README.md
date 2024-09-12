@@ -13,6 +13,7 @@ This script automates the process of running a MySQL Docker container, connectin
 
 ## Requirements
 ### Docker installed and running on your machine.
+Source: https://docs.docker.com/engine/install/ubuntu/#installation-methods 
 1. Set up Docker's apt repository.
 ```bash 
 # Add Docker's official GPG key:
@@ -34,7 +35,9 @@ sudo apt-get update
  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 - MySQL client installed for database connections.
-
+```
+sudo apt install mysql-client
+```
 ## Script Configuration
 
 Before running the script, configure the following variables according to your requirements:
@@ -51,4 +54,4 @@ Before running the script, configure the following variables according to your r
 
 2. **Make the Script Executable**:
    ```bash
-   chmod +x mysql-docker-script.sh
+   chmod +x script.sh
