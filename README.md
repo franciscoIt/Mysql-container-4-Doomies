@@ -1,8 +1,14 @@
-# Mysql_Docker_workflow --> # MySQL Docker Initialization Script
+# Mysql-container-4-Doomies
 
 ## Overview
 
-This script automates the process of running a MySQL Docker container, connecting to it, and then stopping the container. It’s designed to be a simple and effective way to set up and interact with a MySQL database in a Docker environment without knowledge of Docker.
+This little CLI tool automates the process of running a MySQL throught a Docker container, managing the main cases of use like: 
+- Run a Mysql instance without interfere with the Mysql common ports .
+- Import and export databases.
+- Status option that retreive data for MysqlWorkbench or Tableplus.
+- Connect automatically to the Mysql CLI.
+- Clean all the data.
+It’s designed to be a FAST AND SIMPLE way to set up and interact with a MySQL database in a Docker environment without knowledge of Docker nor being familiar with the syntax.
 
 ## Features
 
