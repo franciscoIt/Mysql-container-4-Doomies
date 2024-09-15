@@ -12,10 +12,8 @@ It’s designed to be a FAST AND SIMPLE way to set up and interact with a MySQL 
 
 ## Features
 
-- **Start MySQL Container**: Runs a MySQL instance in a Docker container.
-- **Wait for Initialization**: Ensures MySQL is ready to accept connections.
-- **Connect to MySQL**: Opens a MySQL client connection to the running container.
-- **Clean Up**: Stops and removes the container after use.
+![image](https://github.com/user-attachments/assets/587413af-3b55-4ec7-8a5e-226454d67d52)
+
 
 ## Requirements
 ### Docker installed and running on your machine.
